@@ -11,12 +11,23 @@ If connected to WiFi, it sends the collected data to a web server for real-time 
 
 # Hardware Used
 
-Component       Description                                    
+## Hardware Used
 
-ESP32            Main microcontroller with WiFi    
+### Versions
+| Stage        | Microcontroller |
+|--------------|-----------------|
+| Prototype    | ESP32 DevKit    |
+| Final Device | ESP32 Mini      |
 
-MPU6050          Accelerometer and Gyroscope for fall detection 
+### Components
 
-MAX30105         Pulse oximeter and heart rate sensor            
+| Component     | Purpose                                       |
+|---------------|-----------------------------------------------|
+| ESP32 / ESP32 Mini | Main MCU with WiFi capabilities           |
+| **MAX30102**  | Pulse oximeter and heart rate monitor         |
+| **GY-86**     | 10 DOF Sensor (MPU6050 + BMP180 + HMC5883L) for fall, pressure, compass |
+| **TP4056**    | Lithium battery charging controller (with protection) |
+| **Li-ion Battery** | Power supply                              |
+| **Charging Block (5V)** | USB source to recharge the battery     |           
      
 
