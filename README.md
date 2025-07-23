@@ -16,7 +16,7 @@ If connected to WiFi, it sends the collected data to a web server for real-time 
 ### Versions
 | Stage        | Microcontroller |
 |--------------|-----------------|
-| Prototype    | ESP32 DevKit    |
+| Prototype    | ESP32           |
 | Final Device | ESP32 Mini      |
 
 ### Components
